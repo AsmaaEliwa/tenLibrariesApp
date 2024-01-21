@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var almofireSwiftJson: AlamofireSwiftyJSON
+    init(){
+        almofireSwiftJson = AlamofireSwiftyJSON.shared
+    }
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("\(almofireSwiftJson.data?.ask ?? 0)" )
         }
         .padding()
     }

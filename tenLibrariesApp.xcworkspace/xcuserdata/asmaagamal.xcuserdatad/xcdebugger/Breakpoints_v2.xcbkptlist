@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2EF3A56E-5D3C-4468-860D-072A0E727667"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A871DA36-7CAE-4E0B-B155-A0B8358B36C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tenLibrariesApp/AlamofireSwiftyJSON.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A871DA36-7CAE-4E0B-B155-A0B8358B36C0 - 150c1d716c83a9f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Alamofire.DataResponse&lt;tenLibrariesApp.YourDataModel, Alamofire.AFError&gt;) -&gt; () in tenLibrariesApp.AlamofireSwiftyJSON.fetchData() -&gt; ()"
+                  moduleName = "tenLibrariesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/Global%20Data/tenLibrariesApp/tenLibrariesApp/AlamofireSwiftyJSON.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "190">
+               </Location>
+               <Location
+                  uuid = "A871DA36-7CAE-4E0B-B155-A0B8358B36C0 - 150c1d716c83a9d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Alamofire.DataResponse&lt;tenLibrariesApp.YourDataModel, Alamofire.AFError&gt;) -&gt; () in tenLibrariesApp.AlamofireSwiftyJSON.fetchData() -&gt; ()"
+                  moduleName = "tenLibrariesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/Global%20Data/tenLibrariesApp/tenLibrariesApp/AlamofireSwiftyJSON.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
