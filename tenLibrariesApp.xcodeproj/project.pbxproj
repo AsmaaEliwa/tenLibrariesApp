@@ -15,6 +15,8 @@
 		7F3495052B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495042B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift */; };
 		7F3495072B5D6BA6007D2CD1 /* YourDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495062B5D6BA6007D2CD1 /* YourDataModel.swift */; };
 		7F34950A2B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */; };
+		7F34950C2B5DBFFC007D2CD1 /* SVProgressHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F34950B2B5DBFFC007D2CD1 /* SVProgressHUDView.swift */; };
+		7F34950E2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F34950D2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift */; };
 		A81019FF9DD83E296DBB386B /* Pods_tenLibrariesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C9FB7B48A0BD207D9361F6 /* Pods_tenLibrariesApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		7F3495062B5D6BA6007D2CD1 /* YourDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDataModel.swift; sourceTree = "<group>"; };
 		7F3495082B5D81D4007D2CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherSwiftUIView.swift; sourceTree = "<group>"; };
+		7F34950B2B5DBFFC007D2CD1 /* SVProgressHUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVProgressHUDView.swift; sourceTree = "<group>"; };
+		7F34950D2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVProgressHUDSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				7F3495042B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift */,
 				7F3495062B5D6BA6007D2CD1 /* YourDataModel.swift */,
 				7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */,
+				7F34950B2B5DBFFC007D2CD1 /* SVProgressHUDView.swift */,
+				7F34950D2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift */,
 			);
 			path = tenLibrariesApp;
 			sourceTree = "<group>";
@@ -222,6 +228,8 @@
 			files = (
 				7F34950A2B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift in Sources */,
 				7F3495072B5D6BA6007D2CD1 /* YourDataModel.swift in Sources */,
+				7F34950C2B5DBFFC007D2CD1 /* SVProgressHUDView.swift in Sources */,
+				7F34950E2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift in Sources */,
 				7F3494F32B5D5DCA007D2CD1 /* ContentView.swift in Sources */,
 				7F3495052B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift in Sources */,
 				7F3494F12B5D5DCA007D2CD1 /* tenLibrariesAppApp.swift in Sources */,
