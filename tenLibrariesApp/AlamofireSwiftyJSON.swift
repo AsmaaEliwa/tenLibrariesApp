@@ -56,4 +56,12 @@ class AlamofireSwiftyJSON:ObservableObject{
                }
            }
     
+    func parse(){
+        let jsonString = "{\"name\": \"John\", \"age\": 25}"
+        if let jsonData = jsonString.data(using: .utf8) {
+            let json = try? JSON(data: jsonData)
+            let name = json?["name"].stringValue
+            let age = json?["age"].intValue
+        }
+    }
 }
