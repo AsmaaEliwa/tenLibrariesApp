@@ -7,7 +7,7 @@ target 'tenLibrariesApp' do
   pod 'Kingfisher'
   pod 'SVProgressHUD'
   pod 'SwiftLint', '~> 0.42'
-  pod 'Firebase', '~> 8.0'
+  pod 'Firebase', '~> 8.15.0'
   pod 'RealmSwift'
   pod 'Charts'
   pod 'IQKeyboardManagerSwift'

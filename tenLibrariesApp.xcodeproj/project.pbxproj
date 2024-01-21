@@ -17,13 +17,14 @@
 		7F34950A2B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */; };
 		7F34950C2B5DBFFC007D2CD1 /* SVProgressHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F34950B2B5DBFFC007D2CD1 /* SVProgressHUDView.swift */; };
 		7F34950E2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F34950D2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift */; };
-		A81019FF9DD83E296DBB386B /* Pods_tenLibrariesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C9FB7B48A0BD207D9361F6 /* Pods_tenLibrariesApp.framework */; };
+		7F3495102B5DCF20007D2CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F34950F2B5DCF20007D2CD1 /* AppDelegate.swift */; };
+		7F3495122B5DCFCA007D2CD1 /* firebaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495112B5DCFCA007D2CD1 /* firebaseView.swift */; };
+		7F3495172B5DD650007D2CD1 /* Pods_tenLibrariesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D47DB91B83FC2B1F991D496 /* Pods_tenLibrariesApp.framework */; };
+		7F34951A2B5DD6E8007D2CD1 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3495132B5DD5E4007D2CD1 /* FirebaseCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03735E01E0700676FFDD21B1 /* Pods-tenLibrariesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenLibrariesApp.release.xcconfig"; path = "Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp.release.xcconfig"; sourceTree = "<group>"; };
-		48C9FB7B48A0BD207D9361F6 /* Pods_tenLibrariesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tenLibrariesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		664BFD7A1AF23DDA395F86C0 /* Pods-tenLibrariesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenLibrariesApp.debug.xcconfig"; path = "Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7D5C762A4BCD2C484266C0EC /* Pods-tenLibrariesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenLibrariesApp.release.xcconfig"; path = "Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp.release.xcconfig"; sourceTree = "<group>"; };
 		7F3494ED2B5D5DCA007D2CD1 /* tenLibrariesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tenLibrariesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3494F02B5D5DCA007D2CD1 /* tenLibrariesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenLibrariesAppApp.swift; sourceTree = "<group>"; };
 		7F3494F22B5D5DCA007D2CD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +37,11 @@
 		7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherSwiftUIView.swift; sourceTree = "<group>"; };
 		7F34950B2B5DBFFC007D2CD1 /* SVProgressHUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVProgressHUDView.swift; sourceTree = "<group>"; };
 		7F34950D2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVProgressHUDSwiftUIView.swift; sourceTree = "<group>"; };
+		7F34950F2B5DCF20007D2CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F3495112B5DCFCA007D2CD1 /* firebaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseView.swift; sourceTree = "<group>"; };
+		7F3495132B5DD5E4007D2CD1 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A905F5C226A1C57BCD1DF6C /* Pods-tenLibrariesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenLibrariesApp.debug.xcconfig"; path = "Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9D47DB91B83FC2B1F991D496 /* Pods_tenLibrariesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tenLibrariesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,26 +49,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A81019FF9DD83E296DBB386B /* Pods_tenLibrariesApp.framework in Frameworks */,
+				7F34951A2B5DD6E8007D2CD1 /* FirebaseCore.framework in Frameworks */,
+				7F3495172B5DD650007D2CD1 /* Pods_tenLibrariesApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3445A984FBD70C118A2E9879 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				48C9FB7B48A0BD207D9361F6 /* Pods_tenLibrariesApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4F2D53B4A8725849BC89EAA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				664BFD7A1AF23DDA395F86C0 /* Pods-tenLibrariesApp.debug.xcconfig */,
-				03735E01E0700676FFDD21B1 /* Pods-tenLibrariesApp.release.xcconfig */,
+				8A905F5C226A1C57BCD1DF6C /* Pods-tenLibrariesApp.debug.xcconfig */,
+				7D5C762A4BCD2C484266C0EC /* Pods-tenLibrariesApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -74,7 +73,7 @@
 				7F3494EF2B5D5DCA007D2CD1 /* tenLibrariesApp */,
 				7F3494EE2B5D5DCA007D2CD1 /* Products */,
 				4F2D53B4A8725849BC89EAA4 /* Pods */,
-				3445A984FBD70C118A2E9879 /* Frameworks */,
+				D145B30881482ADE9AE64324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +98,8 @@
 				7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */,
 				7F34950B2B5DBFFC007D2CD1 /* SVProgressHUDView.swift */,
 				7F34950D2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift */,
+				7F34950F2B5DCF20007D2CD1 /* AppDelegate.swift */,
+				7F3495112B5DCFCA007D2CD1 /* firebaseView.swift */,
 			);
 			path = tenLibrariesApp;
 			sourceTree = "<group>";
@@ -111,6 +112,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D145B30881482ADE9AE64324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F3495132B5DD5E4007D2CD1 /* FirebaseCore.framework */,
+				9D47DB91B83FC2B1F991D496 /* Pods_tenLibrariesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,11 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F3494FB2B5D5DCC007D2CD1 /* Build configuration list for PBXNativeTarget "tenLibrariesApp" */;
 			buildPhases = (
-				DB0899F60A6AD92041CB8206 /* [CP] Check Pods Manifest.lock */,
+				A1D84D599E0384BE69DA12D6 /* [CP] Check Pods Manifest.lock */,
 				7F3494E92B5D5DCA007D2CD1 /* Sources */,
 				7F3494EA2B5D5DCA007D2CD1 /* Frameworks */,
 				7F3494EB2B5D5DCA007D2CD1 /* Resources */,
-				A1C4EF067979737BAEFB5B87 /* [CP] Embed Pods Frameworks */,
+				4BCE37E5E93CAD3B0413F576 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,7 +190,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A1C4EF067979737BAEFB5B87 /* [CP] Embed Pods Frameworks */ = {
+		4BCE37E5E93CAD3B0413F576 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,7 +207,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB0899F60A6AD92041CB8206 /* [CP] Check Pods Manifest.lock */ = {
+		A1D84D599E0384BE69DA12D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,7 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3495102B5DCF20007D2CD1 /* AppDelegate.swift in Sources */,
 				7F34950A2B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift in Sources */,
+				7F3495122B5DCFCA007D2CD1 /* firebaseView.swift in Sources */,
 				7F3495072B5D6BA6007D2CD1 /* YourDataModel.swift in Sources */,
 				7F34950C2B5DBFFC007D2CD1 /* SVProgressHUDView.swift in Sources */,
 				7F34950E2B5DC071007D2CD1 /* SVProgressHUDSwiftUIView.swift in Sources */,
@@ -360,7 +372,7 @@
 		};
 		7F3494FC2B5D5DCC007D2CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 664BFD7A1AF23DDA395F86C0 /* Pods-tenLibrariesApp.debug.xcconfig */;
+			baseConfigurationReference = 8A905F5C226A1C57BCD1DF6C /* Pods-tenLibrariesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -391,7 +403,7 @@
 		};
 		7F3494FD2B5D5DCC007D2CD1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03735E01E0700676FFDD21B1 /* Pods-tenLibrariesApp.release.xcconfig */;
+			baseConfigurationReference = 7D5C762A4BCD2C484266C0EC /* Pods-tenLibrariesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

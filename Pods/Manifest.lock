@@ -110,7 +110,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Charts
-  - Firebase (~> 8.0)
+  - Firebase (~> 8.15.0)
   - Hero
   - IQKeyboardManagerSwift
   - Kingfisher
@@ -166,6 +166,6 @@ SPEC CHECKSUMS:
   SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 851351e2c8dca8f9d1c926d5731fb4d7ef1174b5
+PODFILE CHECKSUM: a65794e2bb70be0824743ff8e1d895688bea046f
 
 COCOAPODS: 1.14.3

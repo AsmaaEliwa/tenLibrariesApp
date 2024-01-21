@@ -17,7 +17,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("\(almofireSwiftJson.data?.ask ?? 0)" )
+            Text("\(almofireSwiftJson.data?.ask ?? 0)" ).padding()
             
             
             NavigationLink(destination: KingfisherSwiftUIView()){
@@ -29,6 +29,9 @@ struct ContentView: View {
             }
             
            
+            NavigationLink(destination:  firebaseView()){
+                Text(" Firebase").padding()
+            }
             
             
         }

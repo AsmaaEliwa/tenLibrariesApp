@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
-
+import Firebase
 @main
 struct tenLibrariesAppApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
-            NavigationStack{
-                ContentView()
+            NavigationStack {
+                FirebaseView()
             }
         }
     }
