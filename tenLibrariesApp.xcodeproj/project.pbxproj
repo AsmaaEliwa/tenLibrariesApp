@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113C6DDD7158EE79B640932D /* Pods_tenLibrariesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A19505163DC196DA48E836 /* Pods_tenLibrariesApp.framework */; };
 		7F3494F12B5D5DCA007D2CD1 /* tenLibrariesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3494F02B5D5DCA007D2CD1 /* tenLibrariesAppApp.swift */; };
 		7F3494F32B5D5DCA007D2CD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3494F22B5D5DCA007D2CD1 /* ContentView.swift */; };
 		7F3494F52B5D5DCC007D2CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3494F42B5D5DCC007D2CD1 /* Assets.xcassets */; };
 		7F3494F82B5D5DCC007D2CD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3494F72B5D5DCC007D2CD1 /* Preview Assets.xcassets */; };
+		7F3495032B5D6451007D2CD1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7F3495022B5D6451007D2CD1 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1901826056989D2A01E9F2D6 /* Pods-tenLibrariesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenLibrariesApp.debug.xcconfig"; path = "Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		42A19505163DC196DA48E836 /* Pods_tenLibrariesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tenLibrariesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3494ED2B5D5DCA007D2CD1 /* tenLibrariesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tenLibrariesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3494F02B5D5DCA007D2CD1 /* tenLibrariesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenLibrariesAppApp.swift; sourceTree = "<group>"; };
 		7F3494F22B5D5DCA007D2CD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F3494F42B5D5DCC007D2CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F3494F72B5D5DCC007D2CD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F3495022B5D6451007D2CD1 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CB65851B09DFA195B6E07CB3 /* Pods-tenLibrariesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tenLibrariesApp.release.xcconfig"; path = "Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +32,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113C6DDD7158EE79B640932D /* Pods_tenLibrariesApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F2D53B4A8725849BC89EAA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1901826056989D2A01E9F2D6 /* Pods-tenLibrariesApp.debug.xcconfig */,
+				CB65851B09DFA195B6E07CB3 /* Pods-tenLibrariesApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7F3494E42B5D5DCA007D2CD1 = {
 			isa = PBXGroup;
 			children = (
+				7F3495022B5D6451007D2CD1 /* Podfile */,
 				7F3494EF2B5D5DCA007D2CD1 /* tenLibrariesApp */,
 				7F3494EE2B5D5DCA007D2CD1 /* Products */,
+				4F2D53B4A8725849BC89EAA4 /* Pods */,
+				F3278B0566D2036295447F13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +87,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F3278B0566D2036295447F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42A19505163DC196DA48E836 /* Pods_tenLibrariesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F3494FB2B5D5DCC007D2CD1 /* Build configuration list for PBXNativeTarget "tenLibrariesApp" */;
 			buildPhases = (
+				16846AD5EAF5BDE3E64F3790 /* [CP] Check Pods Manifest.lock */,
 				7F3494E92B5D5DCA007D2CD1 /* Sources */,
 				7F3494EA2B5D5DCA007D2CD1 /* Frameworks */,
 				7F3494EB2B5D5DCA007D2CD1 /* Resources */,
+				4A6F4991CDC9E2EAAAD52465 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3495032B5D6451007D2CD1 /* Podfile in Resources */,
 				7F3494F82B5D5DCC007D2CD1 /* Preview Assets.xcassets in Resources */,
 				7F3494F52B5D5DCC007D2CD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16846AD5EAF5BDE3E64F3790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tenLibrariesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6F4991CDC9E2EAAAD52465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tenLibrariesApp/Pods-tenLibrariesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F3494E92B5D5DCA007D2CD1 /* Sources */ = {
@@ -266,6 +339,7 @@
 		};
 		7F3494FC2B5D5DCC007D2CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1901826056989D2A01E9F2D6 /* Pods-tenLibrariesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +368,7 @@
 		};
 		7F3494FD2B5D5DCC007D2CD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB65851B09DFA195B6E07CB3 /* Pods-tenLibrariesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
