@@ -18,6 +18,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("\(almofireSwiftJson.data?.ask ?? 0)" )
+            NavigationLink(destination: KingfisherSwiftUIView()){
+                Text("Kingfisher")
+            }
         }
         .padding()
     }

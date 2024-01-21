@@ -11,7 +11,9 @@ import SwiftUI
 struct tenLibrariesAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                ContentView()
+            }
         }
     }
 }

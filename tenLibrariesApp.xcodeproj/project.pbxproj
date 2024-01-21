@@ -14,6 +14,7 @@
 		7F3495032B5D6451007D2CD1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7F3495022B5D6451007D2CD1 /* Podfile */; };
 		7F3495052B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495042B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift */; };
 		7F3495072B5D6BA6007D2CD1 /* YourDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495062B5D6BA6007D2CD1 /* YourDataModel.swift */; };
+		7F34950A2B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */; };
 		A81019FF9DD83E296DBB386B /* Pods_tenLibrariesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C9FB7B48A0BD207D9361F6 /* Pods_tenLibrariesApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		7F3495042B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSwiftyJSON.swift; sourceTree = "<group>"; };
 		7F3495062B5D6BA6007D2CD1 /* YourDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDataModel.swift; sourceTree = "<group>"; };
 		7F3495082B5D81D4007D2CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				7F3494F62B5D5DCC007D2CD1 /* Preview Content */,
 				7F3495042B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift */,
 				7F3495062B5D6BA6007D2CD1 /* YourDataModel.swift */,
+				7F3495092B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift */,
 			);
 			path = tenLibrariesApp;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F34950A2B5DBD3B007D2CD1 /* KingfisherSwiftUIView.swift in Sources */,
 				7F3495072B5D6BA6007D2CD1 /* YourDataModel.swift in Sources */,
 				7F3494F32B5D5DCA007D2CD1 /* ContentView.swift in Sources */,
 				7F3495052B5D68AA007D2CD1 /* AlamofireSwiftyJSON.swift in Sources */,
@@ -363,7 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,7 +398,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
